@@ -423,7 +423,7 @@ footer{
     #logo{
         width: 25px;
         height: 25px;
-        margin: 1px;
+        margin: 2px;
     }
 
     #textosHeader{
@@ -432,15 +432,17 @@ footer{
 
     #textosHeader h1{
         font-size: 50px;
+        margin-bottom: 30px;
     }
 
     #textosHeader p{
         font-size: 13.5px;
-
+        margin-bottom: 30px;
     }
 
     #textosHeader button{
         font-size: 13px;
+        margin-bottom: 30px;
     } 
 }
 
