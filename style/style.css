@@ -483,10 +483,10 @@ footer{
 
 @media(max-width: 450px){
 
+
     #atuacao p{
-        font-size: 17px;
-        
-        width: 100%;
+        font-size: 13.5px;
+        width: 80%;
     }
 
     #atuacao h1{
