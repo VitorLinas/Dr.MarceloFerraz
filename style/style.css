@@ -471,14 +471,21 @@ footer{
 
 @media(max-width: 700px){
 
+    #atuacao{
+        margin: 45px;
+    }
+
     #atuacao p{
         font-size: 18px;
         width: 80%;
+        margin-bottom: 30px;
     }
 
     #atuacao h1{
         font-size: 30px;
+        margin-bottom: 30px;
     }
+
 }
 
 @media(max-width: 450px){
@@ -489,9 +496,60 @@ footer{
         width: 100%;
     }
 
-    #atuacao h1{
+}
+
+
+/* RESPONSIVIDADE FEEDBACK */
+
+@media(max-width: 1100px){
+    #feedback h1{
         font-size: 30px;
     }
 
-  
+    .feedbackDePessoa{
+        margin-bottom: 40px;
+    }
+    
+    .feedbackDePessoa img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .feedbackDePessoa h2{
+        font-size: 25px;
+        /* color: rebeccapurple; */
+    }
+    
+    .feedbackDePessoa p{
+        font-size: 15px;   
+    }
+}
+
+@media(max-width: 700px){
+    #feedback h1{
+        font-size: 25px;
+        padding: 22px;
+    }
+
+   
+    .feedbackDePessoa img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .feedbackDePessoa h2{
+       font-size: 18px;
+      
+    }
+    
+    .feedbackDePessoa p{
+      font-size: 13px;
+    }
+}
+
+@media(max-width: 450px){
+
+    #feedback h2{
+        font-size: 17px;
+    }
 }
