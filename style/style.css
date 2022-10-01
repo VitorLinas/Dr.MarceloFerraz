@@ -446,7 +446,52 @@ footer{
     } 
 }
 
+/* RESPONSIVIDADE ATUAÇÃO */
+
+@media(max-width: 1100px){
+    
+
+    #atuacao h1{
+        font-size: 40px;
+    }
+    
+    #atuacao p{
+        font-size: 25px;
+       
+    }
+}
 
 
+@media(max-width: 820px){
 
+#atuacao p{
+    font-size: 20px;
+}
+}
 
+@media(max-width: 700px){
+
+    #atuacao p{
+        font-size: 18px;
+        width: 80%;
+    }
+
+    #atuacao h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 450px){
+
+    #atuacao p{
+        font-size: 17px;
+        
+        width: 100%;
+    }
+
+    #atuacao h1{
+        font-size: 30px;
+    }
+
+  
+}
