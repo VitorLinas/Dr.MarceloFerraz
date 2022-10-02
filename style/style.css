@@ -449,7 +449,6 @@ footer{
 /* RESPONSIVIDADE ATUAÇÃO */
 
 @media(max-width: 1100px){
-    
 
     #atuacao h1{
         font-size: 40px;
@@ -552,4 +551,162 @@ footer{
     #feedback h2{
         font-size: 17px;
     }
+}
+
+/* RESPONSIVIDADE CERTIFICAÇÃO */
+
+@media(max-width: 1100px){
+    
+
+    #certificacao h1{
+        font-size: 40px;
+    }
+    
+    #certificacao h2{
+        font-size: 25px; 
+    }
+
+    #certificacao img{
+        width: 600px; 
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 700px){
+    
+
+    #certificacao h1{
+        font-size: 30px;
+    }
+    
+    #certificacao h2{
+        font-size: 18px; 
+    }
+
+    #certificacao img{
+        width: 400px; 
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 450px){
+
+    #certificacao h2{
+        font-size: 17px;
+        margin-bottom: 35px 
+    }
+
+    #certificacao img{
+        width: 300px; 
+        margin-bottom: 0px;
+      
+    }
+}
+
+/* RESPONSIVIDADE LOCALIZAÇÃO */
+
+@media(max-width: 1100px){
+    
+
+    #localizacao h1{
+        font-size: 40px;
+    }
+
+    #localizacao h2{
+        font-size: 25px; 
+    }
+
+    #localizacao iframe{
+        width: 600px; 
+        height: 500px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 700px){
+    
+
+    #localizacao h1{
+        font-size: 30px;
+    }
+
+    #localizacao h2{
+        font-size: 18px; 
+        margin-bottom: 35px;
+    }
+
+    #localizacao iframe{
+        width: 400px; 
+        height: 300px;
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 450px){
+
+    #localizacao h2{
+        font-size: 17px;       
+    }
+
+    #localizacao iframe{
+        width: 300px; 
+        height: 250px;
+        margin-bottom: 10px;
+    }
+}
+
+/* RESPONSIVIDADE RODAPÉ */
+
+@media(max-width: 1100px){
+   
+    
+   #informacoesFooter{
+    font-size: 18px;
+   }
+
+   #redesSociaisFooter img{
+    width: 40px;
+   }
+
+   #assinatura{
+    width: 350px;
+   }
+}
+
+@media(max-width: 900px){
+
+    #informacoesFooter{
+        font-size: 20px;
+    }      
+}
+
+@media(max-width: 850px){
+
+    #informacoesFooter{
+        font-size: 17px;
+       }
+
+       #informacoesFooter p{
+        margin: 0;
+
+        padding-top: 50px;
+       }
+
+       #redesSociaisFooter img{
+        width: 35px;
+       }
+
+       #assinatura{
+        width: 250px;
+       }
+}
+
+@media(max-width: 700px){
+
+    #informacoesFooter {
+        display: block;
+        
+       }
+
+       
 }
