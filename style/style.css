@@ -14,7 +14,7 @@ body{
 }
 
 html{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #seta{
@@ -427,7 +427,7 @@ footer{
     }
 
     #textosHeader{
-        margin-left: -10px;
+        /* margin-left: -10px; */
     }
 
     #textosHeader h1{
@@ -653,6 +653,8 @@ footer{
         height: 250px;
         margin-bottom: 10px;
     }
+
+   
 }
 
 /* RESPONSIVIDADE RODAPÉ */
@@ -704,9 +706,18 @@ footer{
 @media(max-width: 700px){
 
     #informacoesFooter {
+
         display: block;
         
        }
 
+    
        
+}
+
+
+@media(max-width: 450px){
+    header{
+        display: none;
+    }
 }
