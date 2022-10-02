@@ -14,7 +14,7 @@ body{
 }
 
 html{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 #seta{
@@ -123,6 +123,7 @@ header{
 #questoesDeAtuacao p{
     text-align: left;
     width: 100%;
+    font-weight: bold;
 }
 
 
@@ -390,7 +391,7 @@ footer{
 
     #textosHeader p{
         font-size: 20px;
-        width: 330px;
+        width: 500px;
    
     }
 
@@ -411,6 +412,8 @@ footer{
 
     #textosHeader p{
         font-size: 17.5px;
+        /* width: 450px; */
+        
     }
 
     #textosHeader button{
@@ -440,6 +443,8 @@ footer{
     #textosHeader p{
         font-size: 13px;
         margin-bottom: 30px;
+
+        width: 330px;
     }
 
     #textosHeader button{
