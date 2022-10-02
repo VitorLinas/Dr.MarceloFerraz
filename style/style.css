@@ -465,9 +465,23 @@ footer{
 
 @media(max-width: 820px){
 
-#atuacao p{
-    font-size: 20px;
-}
+    #atuacao p{
+        font-size: 20px;
+    }
+
+    #questoesDeAtuacao{
+        display: block;
+        text-align: center;
+    }
+
+    #questoesDeAtuacao p{
+        text-align: center;
+        margin:25px  auto;
+    }
+
+    #questoesDeAtuacao br{
+        display: none;
+    }
 }
 
 @media(max-width: 700px){
@@ -491,12 +505,10 @@ footer{
 
 @media(max-width: 450px){
 
-
     #atuacao p{
         font-size: 17px;
         width: 100%;
     }
-
 }
 
 
