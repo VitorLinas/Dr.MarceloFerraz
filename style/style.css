@@ -390,7 +390,7 @@ footer{
 
     #textosHeader p{
         font-size: 20px;
-        width: 500px;
+        width: 330px;
    
     }
 
@@ -419,15 +419,17 @@ footer{
 }
 
 @media(max-width: 450px){
+   
+   
 
     #logo{
         width: 25px;
         height: 25px;
-        margin: 2px;
+        margin: 4px;
     }
 
     #textosHeader{
-        /* margin-left: -10px; */
+        margin-left: -10px;
     }
 
     #textosHeader h1{
@@ -436,7 +438,7 @@ footer{
     }
 
     #textosHeader p{
-        font-size: 13.5px;
+        font-size: 13px;
         margin-bottom: 30px;
     }
 
@@ -597,7 +599,7 @@ footer{
     }
 
     #certificacao img{
-        width: 300px; 
+        width: 280px; 
         margin-bottom: 0px;
       
     }
@@ -649,8 +651,8 @@ footer{
     }
 
     #localizacao iframe{
-        width: 300px; 
-        height: 250px;
+        width: 280px; 
+        height: 240px;
         margin-bottom: 10px;
     }
 
@@ -716,8 +718,3 @@ footer{
 }
 
 
-@media(max-width: 450px){
-    header{
-        display: none;
-    }
-}
