@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2? family= Tangerine:wght@700 & display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
 body{
-    background-color: #6f361c;
+    color: #ede9e9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d2337;
+}
+
+html{
     overflow-x: hidden;
 }
 
@@ -17,606 +23,714 @@ body{
     width: 50px;
     height: 45px;
     padding: 10px;
-    background-color: #3d2013;
+    background-color: #05121c;
     opacity: 0.4;
     bottom: 20px;
     right: 20px;
-    cursor: pointer;
-}
+    z-index: 2;
+  }
     
-#seta:hover{
-    background-color: #3d2013;
+  #seta:hover{
+    background-color: #05121c;
     opacity:unset;
     color: white;
-}
-
-::-webkit-scrollbar{
-    background-color: #2d1409;
-    width: 15px;
-}
-
-::-webkit-scrollbar-thumb{
-    background-color:#ffbd59;
-    border-radius: 5px;
-}
+  }
 
 /* HEADER */
 
 header{
+    background-color:#0d2c47;
+}
+
+#header{
     display: flex;
-    background-color: #84472a;
-}
-
-#area_interativa{
     width: 100%;
+    justify-content: space-between;
 }
 
-#area_interativa img{
-    width: 150px;
-    margin: 20px;
+#logo{
+    width: 60px;
+    height: 50px;
+    margin: 15px;
 }
 
-#area_interativa h1{
-    width: 700px;
-    color: white;
-    margin-left:  100px;
-    margin-top: 80px;
-    font-size: 125px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Roboto', sans-serif;
+#textosHeader{
+    margin-top: 200px;
 }
 
-#area_interativa h2{
+#textosHeader h1{
     color: #ffbd59;
-    margin-left: 100px;
-    margin-top: 30px;
+    font-family: 'Tangerine', cursive;
+    font-size: 130px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
-#area_interativa button{
-    background-color: #b08259;
-    margin-left: 100px;
-    margin-top: 90px;
-    font-size: 30px;
-    padding: 25px;
+#textosHeader p{
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+#textosHeader button{
     border: none;
-    color: white;
-    border-radius: 15px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #081825;
     cursor: pointer;
+    border: 1px solid #ffbd59;
+}
+
+#textosHeader a{
+    text-decoration: none;
+    color: #ffbd59;
 }
 
 #imagem_principal img{
     height: 930px;
-}
-
-/* SOBRE NÓS */
-
-#texto_sobre{
-    color: white;
-    font-size: 60px;
-    text-align: center;
-    width: 80%;
-    margin: 10px auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    
-}
-
-main{
-    margin-top: 50px;
-}
-
-#sobre_nos{
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-#sobre_nos h1{
-    margin-top: 50px;
-    text-align: center;
-    color:#ffbd59;
-    font-size:60px;
-    margin-bottom: 50px;
-    font-style: italic;
-}
-
-#sobre_nos img{
-    text-align: center;
-    margin: 60px;
-    border:  1px solid #b08259;
-}
-
-/* CARDÁPIO */
-
-#cardapio{
-    text-align: center;
-    background-color: #84472a;
-}
-
-#cardapio h1{
-    margin-top: 50px;
-    text-align: center;
-    color:#ffbd59;
-    font-size:60px;
-    margin-bottom: 50px;
-    font-style: italic;
-}
-
-#cardapio img{
-    width: 1200px;
-    margin: auto;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.7);
-    margin-bottom: 60px;
-    visibility: hidden;
-    border:  2px solid #b08259;
+    width: 680px;
 }
 
 
-/* FORMULÁRIO */
+/* ATUAÇÃO */
 
-form{
-    margin-top: 70px;
-    text-align: center;
+#atuacao{
+    margin: 50px;
 }
 
-form h1{
-    margin-top: 30px;
-    font-size: 60px;
-    text-align: center;
+#atuacao h1{
     color: #ffbd59;
-    font-style: italic;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
-form input{
-    background: transparent;
-    border: none;
-    border-bottom: 3px solid #ffbd5984;
-    margin: 50px auto;
+#atuacao p{
+    font-size: 30px;
+    width: 87%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#questoesDeAtuacao{
     display: flex;
-    width: 800px;
-    font-size: 25px;
-    margin-top: 90px;
-    margin-bottom: 70px;
-    color: white;
-    outline: none;
+    justify-content: space-around;
 }
 
-::placeholder{
-    color: white;
+#questoesDeAtuacao p{
+    text-align: left;
+    width: 100%;
     font-weight: bold;
 }
 
-form button{
-    font-size: 20px;
-    padding: 15px;
-    border-radius: 15px;
-    border: none;
-    background-color: #b08259;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 80px;
+
+/* FEEDBACKS */
+
+#feedback{
+    background-color: #0d2c47;
 }
+
+#feedback h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #ffbd59;
+    text-align: center;
+    padding: 70px;
+}
+
+.feedbackDePessoa{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.feedbackDePessoa img{
+    width: 120px;
+    height: 120px;
+}
+
+.feedbackDePessoa h2{   
+    width: 90%;
+    margin: 20px auto;
+}
+
+.feedbackDePessoa p{
+    font-style: italic;
+    font-size: 17px;   
+}
+
+
+/* CERTIFICAÇÃO */
+
+#certificacao{
+    margin: 50px;
+    text-align: center;
+}
+
+#certificacao h1{
+    color: #ffbd59;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#certificacao h2{
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+#certificacao img{
+    width: 750px; 
+    margin-bottom: 50px;
+}
+
+#certificacao img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+
+/* LOCALIZAÇÃO */
+
+#localizacao{
+    background-color: #0d2c47;
+    text-align: center;
+    padding: 50px;
+}
+
+#localizacao h1{
+    color: #ffbd59;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#localizacao h2{
+    color: #ffbd59;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+#localizacao iframe{
+    margin-bottom: 50px;
+}
+
 
 /* RODAPÉ */
 
 footer{
-    background-color: #2d140988;
-    color: white;
+    background-color: #040e16;
     text-align: center;
 }
 
-#imagens_footer img{
-    width: 40px;   
-    margin: 50px;
-}
-
-footer p{
+#informacoesFooter{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
     font-style: italic;
 }
 
+#informacoesFooter p{
+    margin-top: 70px;
+}
+
+#redesSociaisFooter  img{
+    margin: 50px; 
+    width: 50px;
+    margin-bottom: 100px;
+}
+
+#assinatura{
+    width: 400px;
+    margin-top: -70px;
+}
 
 /* RESPONSIVIDADE HEADER */
 
-@media(max-width: 1600px){
+@media(max-width: 1700px){
    
     #imagem_principal img{
-        height: 850px;
-        width: 700px;
-    }
-}
-
-@media(max-width: 1450px){
-
-    #imagem_principal img{
-        height: 850px;
-        width: 700px;
-    }
-
-    #area_interativa img{
-        width: 140px;
-    }
-
-    #area_interativa h1{
-        font-size: 100px;
-        margin-left: 50px;
+        height: 900px;
         width: 600px;
     }
 
-    #area_interativa h2{
-        font-size: 20px;
-        margin-left: 50px;
+    #textosHeader h1{
+        font-size: 110px;
     }
 
-    #area_interativa button{
+    #textosHeader p{
+        font-size: 32px;
+    }
+
+    #textosHeader button{
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 1600px){
+
+    #imagem_principal img{
+        height: 850px;
+        width: 560px;
+    }
+
+    #textosHeader{
+        margin-top: 150px;
+    }   
+}
+
+@media(max-width: 1550px){
+
+    #imagem_principal img{
+        height: 800px;
+        width: 530px;
+    }
+
+    #textosHeader h1{
+        font-size: 95px;
+    }
+
+    #textosHeader p{
+        font-size: 29px;
+        width: 750px;
+    }
+
+    #textosHeader button{
         font-size: 25px;
-        padding: 20px;
-        margin-left: 50px;
-    } 
+    }
 }
 
-@media(max-width: 1250px){
+@media(max-width: 1330px){
 
     #imagem_principal img{
-        height: 750px;
-        width: 600px;
+        height: 720px;
     }
 
-    #area_interativa h1{
-        font-size: 80px;
-        width: 500px;
+    #logo{
+        width: 40px;
+        height: 40px;
     }
 
-    #area_interativa h2{
-        font-size: 17px;  
+    #textosHeader h1{
+        font-size: 90px;
     }
 
-    #area_interativa button{
-        font-size: 20px;
-        padding: 15px;
-    } 
+    #textosHeader p{
+        font-size: 25px;
+        width: 650px;
 
-    #area_interativa img{
-        width: 120px;
+    }
+
+    #textosHeader button{
+        font-size: 23px;
     }
 }
 
-
-@media(max-width: 1050px){
+@media(max-width: 1200px){
 
     #imagem_principal img{
         display: none;
     }
 
-    #area_interativa{
-        text-align: center;
+    #textosHeader{
+        margin-top: 100px;
+    }  
+
+    #textosHeader h1{
+        font-size: 100px;
     }
 
-    #area_interativa h1{
-        margin-top: 0;
-        width: 100%;
-        margin-left: 0;
-        font-size: 110px;
+    #textosHeader p{
+        font-size: 32px;
+        width: 800px;
     }
 
-    #area_interativa h2{
-        margin-left: 0;
-        font-size: 20px;
-    }
-
-    #area_interativa button{
-        margin-right: 0;
-        margin-left: 0;
-        margin-top: 40px;
+    #textosHeader button{
+        font-size: 25px;
         margin-bottom: 50px;
     }
 }
 
 @media(max-width: 900px){
-    #area_interativa h1{
-        font-size: 80px;
+
+    #textosHeader h1{
+        font-size: 85px;
     }
 
-    #area_interativa img{
-        width: 100px;
-    }
-}
-
-@media(max-width: 480px){
-    #area_interativa h1{
-        font-size: 68px;
-        margin-top: 140px; 
+    #textosHeader p{
+        font-size: 25px;
+        width: 650px;
+        margin-bottom: 50px;
     }
 
-    #area_interativa h2{
-        font-size: 18px;
-        margin-right: 40px;
-    }
-
-    #area_interativa img{
-        width: 85px;
-        float: left;
-    }
-
-    #area_interativa button{
-        float: left;
-        margin-left:35px;
-        font-size: 18px;
-    }
-}
-
-@media(max-width: 385px){
-    #area_interativa h1{  
-        font-size: 68px;
-        margin-top: 140px;
-    }
-
-    #area_interativa h2{
-        font-size: 18px;
-        margin-right: 40px;
-    }
-
-    #area_interativa img{
-        width: 85px;
-        float: left;
-    }
-
-    #area_interativa button{
-        float: left;
-        margin-left:20px;
-        font-size: 18px;
-    }
-}
-
-@media(min-width: 1100px) and (max-height: 900px) and (max-width: 1400px){
-       
-
-    #imagem_principal img{
-        height: 650px;
-        width: 550px;
-    }
-
-    #area_interativa img{
-        width: 100px;
-    }
-
-    #area_interativa h1{
-        font-size: 95px;
-        width: 500px;
-        margin-top: 0;
-    }
-
-    #area_interativa h2{
+    #textosHeader button{
         font-size: 20px;
-        margin-left: 60px;
-    }
-
-    #area_interativa button{
-        font-size: 22px;
-        padding: 15px;
-        margin-top: 80px;
     } 
-
 }
 
+@media(max-width: 720px){
 
-/* RESPONSIVIDADE SOBRE NÓS */
-
-@media(max-width: 1400px){
-    #sobre_nos h1{
-        font-size:  45px;
-        color: blue;
+    #logo{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
     }
 
-    #texto_sobre{
-        font-size: 40px;
+    #textosHeader h1{
+        font-size: 75px;
     }
 
-    #sobre_nos img{
-        width: 800px;
+    #textosHeader p{
+        font-size: 20px;
+        width: 500px;
     }
+
+    #textosHeader button{
+        font-size: 18px;
+    } 
 }
 
-@media(max-width: 1000px){
+@media(max-width: 570px){
 
-    #sobre_nos h1{
-        font-size:  35px;
+    #textosHeader{
+        margin-top: 80px;
+    }
+
+    #textosHeader h1{
+        font-size: 70px;
+    }
+
+    #textosHeader p{
+        font-size: 17.5px;    
+    }
+
+    #textosHeader button{
+        font-size: 16px;
+    } 
+}
+
+@media(max-width: 450px){
+
+    #logo{
+        width: 25px;
+        height: 25px;
+        margin: 4px;
+    }
+
+    #textosHeader{
+        margin-left: -10px;
+    }
+
+    #textosHeader h1{
+        font-size: 55px;
         margin-bottom: 20px;
     }
 
-    #texto_sobre{
-        font-size: 30px;
+    #textosHeader p{
+        font-size: 13px;
+        margin-bottom: 30px;
+        width: 330px;
     }
 
-    #sobre_nos img{
-        width: 700px;
+    #textosHeader button{
+        font-size: 13px;
+        margin-bottom: 30px;
+    } 
+}
+
+@media(min-width: 1100px) and (max-height: 900px) and (max-width: 1400px){
+   
+
+    #imagem_principal img{
+        height: 650px;
+    }
+
+    #logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    #textosHeader{
+        margin-top: 100px;
     }
 }
 
-@media(max-width: 850px){
 
-    #sobre_nos img{
-        width: 600px;
+/* RESPONSIVIDADE ATUAÇÃO */
+
+@media(max-width: 1100px){
+
+    #atuacao h1{
+        font-size: 40px;
+    }
+    
+    #atuacao p{
+        font-size: 25px;
+    }
+}
+
+
+@media(max-width: 820px){
+
+    #atuacao p{
+        font-size: 20px;
+    }
+
+    #questoesDeAtuacao{
+        display: block;
+        text-align: center;
+    }
+
+    #questoesDeAtuacao p{
+        text-align: center;
+        margin:25px  auto;
+    }
+
+    #questoesDeAtuacao br{
+        display: none;
     }
 }
 
 @media(max-width: 700px){
 
-    #sobre_nos img{
-        width: 380px;
-        margin: 30px;
+    #atuacao{
+        margin: 45px;
+    }
+
+    #atuacao p{
+        font-size: 18px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    #atuacao h1{
+        font-size: 30px;
+        margin-bottom: 30px;
     }
 }
 
-@media(max-width: 480px){
-    #sobre_nos h1{
-        font-size:  30px;
-        margin-bottom: 20px;
-    }
+@media(max-width: 450px){
 
-    #texto_sobre{
-        font-size: 22px;
-        width: 90%;
-    }
-
-    #sobre_nos img{
-        width: 310px;
-        margin: 20px;
+    #atuacao p{
+        font-size: 17px;
+        width: 100%;
     }
 }
 
-@media(min-width: 1100px) and (max-height: 900px) and (max-width: 1400px){
-    #sobre_nos img{
-        width: 750px;
+
+/* RESPONSIVIDADE FEEDBACK */
+
+@media(max-width: 1100px){
+    #feedback h1{
+        font-size: 30px;
+    }
+
+    .feedbackDePessoa{
+        margin-bottom: 40px;
+    }
+    
+    .feedbackDePessoa img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .feedbackDePessoa h2{
+        font-size: 25px;
+    }
+    
+    .feedbackDePessoa p{
+        font-size: 15px;   
     }
 }
 
-/* RESPONSIVIDADE CARDÁPIO */
-
-@media(max-width: 1350px){
-    #cardapio h1{
-        font-size: 45px;
+@media(max-width: 700px){
+    #feedback h1{
+        font-size: 25px;
+        padding: 22px;
     }
 
-    #cardapio img{
-        width: 1000px;
+   
+    .feedbackDePessoa img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .feedbackDePessoa h2{
+       font-size: 18px;
+      
+    }
+    
+    .feedbackDePessoa p{
+      font-size: 13px;
     }
 }
+
+@media(max-width: 450px){
+
+    #feedback h2{
+        font-size: 17px;
+    }
+}
+
+/* RESPONSIVIDADE CERTIFICAÇÃO */
 
 @media(max-width: 1100px){
     
-    #cardapio img{
-        width: 800px;
+
+    #certificacao h1{
+        font-size: 40px;
+    }
+    
+    #certificacao h2{
+        font-size: 25px; 
+    }
+
+    #certificacao img{
+        width: 600px; 
+        margin-bottom: 40px;
     }
 }
 
-@media(max-width: 1000px){
-    #cardapio h1{
-        font-size: 35px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+@media(max-width: 700px){
+    
+
+    #certificacao h1{
+        font-size: 30px;
     }
+    
+    #certificacao h2{
+        font-size: 18px; 
+    }
+
+    #certificacao img{
+        width: 400px; 
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 450px){
+
+    #certificacao h2{
+        font-size: 17px;
+        margin-bottom: 35px 
+    }
+
+    #certificacao img{
+        width: 280px; 
+        margin-bottom: 0px;
+      
+    }
+}
+
+/* RESPONSIVIDADE LOCALIZAÇÃO */
+
+@media(max-width: 1100px){
+    
+
+    #localizacao h1{
+        font-size: 40px;
+    }
+
+    #localizacao h2{
+        font-size: 25px; 
+    }
+
+    #localizacao iframe{
+        width: 600px; 
+        height: 500px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 700px){
+    
+
+    #localizacao h1{
+        font-size: 30px;
+    }
+
+    #localizacao h2{
+        font-size: 18px; 
+        margin-bottom: 35px;
+    }
+
+    #localizacao iframe{
+        width: 400px; 
+        height: 300px;
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 450px){
+
+    #localizacao h2{
+        font-size: 17px;       
+    }
+
+    #localizacao iframe{
+        width: 280px; 
+        height: 240px;
+        margin-bottom: 10px;
+    }
+}
+
+/* RESPONSIVIDADE RODAPÉ */
+
+@media(max-width: 1100px){
+   
+    
+   #informacoesFooter{
+    font-size: 18px;
+   }
+
+   #redesSociaisFooter img{
+    width: 40px;
+   }
+
+   #assinatura{
+    width: 350px;
+   }
 }
 
 @media(max-width: 900px){
-    #cardapio img{
-        width: 700px;
-    }
-}
 
-@media(max-width: 750px){
-    #cardapio img{
-        width: 500px;
-    }
-}
-
-@media(max-width: 600px){
-    #cardapio img{
-        width: 400px;
-    }
-}
-@media(max-width: 480px){
-    #cardapio img{
-         width: 330px;
-    }
-}
-
-@media(min-width: 1100px) and (max-height: 900px) and (max-width: 1400px){
-    #cardapio img{
-        width: 750px;
-    }
-}
-
-
-/* RESPONSIVIDADE FORMULÁRIO */
-
-
-@media(max-width: 1350px){
-    form h1{
-        font-size: 45px; 
-    }
-
-    form input{
-        width: 600px;
+    #informacoesFooter{
         font-size: 20px;
-    }
-
-    form button{
-        font-size: 18px;
-    }
-  }
-
-
-@media(max-width: 1000px){
-    form h1{
-        font-size: 35px;
-    }
-
-    form input{
-        width: 450px;
-        font-size: 15px;
-    }
-
-    form button{
-        font-size: 15px;
-    }
+    }      
 }
 
-@media(max-width: 480px){
+@media(max-width: 850px){
 
-    form{
-        margin-top: 30px;
-    }
+    #informacoesFooter{
+        font-size: 17px;
+       }
 
-    form h1{
-        font-size: 25px;
-        margin-top: 10px;
-    }
+       #informacoesFooter p{
+        margin: 0;
+        padding-top: 50px;
+       }
 
-    form input{
-        width: 300px;
-        font-size: 13px;
-        margin-top: 60px;
-        margin-bottom: 50px;
-    }
+       #redesSociaisFooter img{
+        width: 35px;
+       }
 
-    form button{
-        font-size: 13px;
-        padding: 13px;
-        margin-bottom: 50px;  
-    }
+       #assinatura{
+        width: 250px;
+       }
 }
-    
-    /* RESPONSIVIDADE FOOTER */
 
-    @media(max-width: 1000px){
-       
-        #imagens_footer img{
-            width: 30px;
-        }
-    }
+@media(max-width: 700px){
 
-    @media(max-width: 800px){
-       
-        #imagens_footer img{
-            width: 25px;
-            margin: 30px;
-        }
-
-        footer p{
-            font-size: 13px;
-        }
-    }
-
-    @media(max-width: 480px){
-       
-        #imagens_footer img{
-            width: 20px;
-            margin: 24px;
-        }
-    }
-    
+    #informacoesFooter {
+        display: block;
+       }    
+}
 
 
-
-
-
-   
